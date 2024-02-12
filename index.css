@@ -1,0 +1,59 @@
+body{
+    background-color: mintcream;    
+    min-width: 100%;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li :any-link{
+    text-decoration: none;
+    color: rgb(219, 52, 102);
+    padding: 5px 20px;
+    border: 1pcx solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: rgb(241, 159, 127);
+    color: black;
+}
+
+header{
+    background-color: rgb(207, 227, 243);
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(166, 207, 243);
+}
+
+img{
+    max-width:100%;
+    height: auto;
+}
+
+figcaption{
+    font-weight: bold;
+}
